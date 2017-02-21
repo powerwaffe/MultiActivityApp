@@ -11,17 +11,6 @@
     android:background="#404040"
     tools:context="edu.dtcc.spaol1.multiactivityapp.MainActivity">
 
-    <Button
-        android:text="@string/create_string"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:layout_below="@+id/etMainEditText"
-        android:layout_centerHorizontal="true"
-        android:layout_marginTop="54dp"
-        android:id="@+id/btnMainCreateString"
-        android:onClick="onBtnCreateStringClick"
-        android:textSize="24sp" />
-
     <EditText
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
@@ -30,9 +19,20 @@
         android:textSize="22sp"
         android:inputType="text"
         android:textColor="#cccc00"
-        android:layout_alignParentTop="true"
-        android:layout_centerHorizontal="true"
-        android:layout_marginTop="320dp" />
+        android:layout_marginTop="40dp"
+        android:layout_below="@+id/textView"
+        android:layout_centerHorizontal="true" />
+
+    <Button
+        android:text="@string/create_string"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="52dp"
+        android:id="@+id/btnMainCreateString"
+        android:onClick="onBtnCreateStringClick"
+        android:textSize="24sp"
+        android:layout_below="@+id/etMainEditText"
+        android:layout_centerHorizontal="true" />
 
     <TextView
         android:text="@string/enter_a_string_below"
@@ -42,7 +42,7 @@
         android:id="@+id/textView"
         android:textSize="24sp"
         android:textColor="#cccc00"
-        android:layout_above="@+id/btnMainCreateString"
-        android:layout_alignStart="@+id/btnMainCreateString"
-        android:layout_marginBottom="90dp" />
+        android:layout_marginTop="116dp"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true" />
 </RelativeLayout>

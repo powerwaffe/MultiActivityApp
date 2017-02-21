@@ -5,17 +5,6 @@
     android:background="#404040">
 
     <TextView
-        android:text="@string/string_from_previous_activity_is_below"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:layout_marginTop="288dp"
-        android:id="@+id/textView3"
-        android:textSize="24sp"
-        android:layout_alignParentTop="true"
-        android:textColor="#cccc00"
-        android:layout_centerHorizontal="true" />
-
-    <TextView
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_below="@+id/textView3"
@@ -35,4 +24,15 @@
         android:id="@+id/btnPreviousActivity"
         android:onClick="onBtnPreviousClick"
         android:textSize="24sp" />
+
+    <TextView
+        android:text="@string/string_from_previous_activity_is_below"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="106dp"
+        android:id="@+id/textView3"
+        android:textSize="24sp"
+        android:layout_alignParentTop="true"
+        android:textColor="#cccc00"
+        android:layout_centerHorizontal="true" />
 </RelativeLayout>

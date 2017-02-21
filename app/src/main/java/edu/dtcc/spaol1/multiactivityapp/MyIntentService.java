@@ -4,10 +4,6 @@ import android.app.IntentService;
 import android.content.Intent;
 import android.util.Log;
 
-/**
- * Created by Sean on 2/21/2017.
- */
-
 public class MyIntentService extends IntentService
 {
     // Create logcat TAG
